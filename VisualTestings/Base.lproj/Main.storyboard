@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CYD-xX-3Gu">
+                                <rect key="frame" x="270" y="160" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="ImageVIew1">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zb5-Rf-Br7">
+                                <rect key="frame" x="270" y="160" width="60" height="60"/>
+                                <accessibility key="accessibilityConfiguration" label="ImageView2">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="12V-b1-0oc"/>
+                                    <constraint firstAttribute="width" constant="60" id="W2h-Wj-xGZ"/>
+                                </constraints>
+                            </imageView>
+                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kg9-YG-keS" customClass="CorneredView">
+                                <rect key="frame" x="270" y="92" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="CorneredView">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="HWl-zI-oQY"/>
+                                    <constraint firstAttribute="width" constant="60" id="X3L-KA-4W6"/>
+                                </constraints>
+                            </view>
+                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wEB-dk-D6g">
+                                <rect key="frame" x="270" y="380" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="View1">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="sxq-Vj-lrz"/>
+                                    <constraint firstAttribute="width" constant="60" id="yXe-xu-cqO"/>
+                                </constraints>
+                            </view>
+                            <view tag="6" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dY0-aI-4au">
+                                <rect key="frame" x="338" y="270" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="View2">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Lc2-Wi-CTY"/>
+                                    <constraint firstAttribute="width" constant="60" id="fjj-VS-kNT"/>
+                                </constraints>
+                            </view>
+                            <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uA0-da-D4s">
+                                <rect key="frame" x="270" y="270" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="View3">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="bHp-pY-RqP"/>
+                                    <constraint firstAttribute="height" constant="60" id="qjA-Lf-LKU"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wu5-79-6ug">
+                                <rect key="frame" x="216" y="285" width="46" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Button1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.1333333333" green="0.60784313729999995" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p5t-am-4BM">
+                                <rect key="frame" x="16" y="20" width="30" height="560"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TmR-Su-yUG">
+                                        <rect key="frame" x="-44" y="265" width="118" height="31"/>
+                                        <color key="minimumTrackTintColor" red="0.1137254902" green="0.61176470589999998" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="maximumTrackTintColor" red="0.00024227322918962679" green="0.1013398861069173" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="thumbTintColor" red="0.91764705879999997" green="0.93333333330000001" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="JBk-vE-Oel"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration" label="Recepies">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="p5t-am-4BM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="7mr-yV-iVx"/>
+                            <constraint firstAttribute="centerY" secondItem="dY0-aI-4au" secondAttribute="centerY" id="Bpn-id-VFp"/>
+                            <constraint firstItem="CYD-xX-3Gu" firstAttribute="top" secondItem="zb5-Rf-Br7" secondAttribute="top" id="Bt1-Fn-jLb"/>
+                            <constraint firstAttribute="centerX" secondItem="wEB-dk-D6g" secondAttribute="centerX" id="P50-1C-Emv"/>
+                            <constraint firstItem="uA0-da-D4s" firstAttribute="top" secondItem="zb5-Rf-Br7" secondAttribute="bottom" constant="50" id="Sua-8W-ICt"/>
+                            <constraint firstItem="wEB-dk-D6g" firstAttribute="top" secondItem="uA0-da-D4s" secondAttribute="bottom" constant="50" id="V9G-c0-9Sl"/>
+                            <constraint firstAttribute="centerX" secondItem="uA0-da-D4s" secondAttribute="centerX" id="Xoa-nD-8kb"/>
+                            <constraint firstAttribute="centerX" secondItem="zb5-Rf-Br7" secondAttribute="centerX" id="YLl-3v-jUE"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="p5t-am-4BM" secondAttribute="bottom" constant="20" id="a36-KD-VAQ"/>
+                            <constraint firstAttribute="centerY" secondItem="Wu5-79-6ug" secondAttribute="centerY" id="dOh-RD-2nI"/>
+                            <constraint firstItem="CYD-xX-3Gu" firstAttribute="bottom" secondItem="zb5-Rf-Br7" secondAttribute="bottom" id="dnI-i0-hV1"/>
+                            <constraint firstAttribute="centerX" secondItem="kg9-YG-keS" secondAttribute="centerX" id="fyp-mO-Im2"/>
+                            <constraint firstAttribute="centerY" secondItem="uA0-da-D4s" secondAttribute="centerY" id="gZj-kO-Mi4"/>
+                            <constraint firstItem="zb5-Rf-Br7" firstAttribute="top" secondItem="kg9-YG-keS" secondAttribute="bottom" constant="8" id="imW-x6-Yeo"/>
+                            <constraint firstItem="CYD-xX-3Gu" firstAttribute="leading" secondItem="zb5-Rf-Br7" secondAttribute="leading" id="ipk-FL-hI7"/>
+                            <constraint firstItem="p5t-am-4BM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="jah-RM-ejg"/>
+                            <constraint firstItem="dY0-aI-4au" firstAttribute="leading" secondItem="uA0-da-D4s" secondAttribute="trailing" constant="8" id="ngv-vm-Kuz"/>
+                            <constraint firstItem="CYD-xX-3Gu" firstAttribute="trailing" secondItem="zb5-Rf-Br7" secondAttribute="trailing" id="s5Q-Vm-XlK"/>
+                            <constraint firstItem="uA0-da-D4s" firstAttribute="leading" secondItem="Wu5-79-6ug" secondAttribute="trailing" constant="8" id="z2S-Kr-MeC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="TmR-Su-yUG" id="jxc-ch-htq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="458"/>
+        </scene>
+    </scenes>
+</document>
