@@ -384,6 +384,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jumblify.app/Jumblify";
+				VALID_ARCHS = armv7s;
 			};
 			name = Debug;
 		};
@@ -399,6 +400,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jumblify.app/Jumblify";
+				VALID_ARCHS = armv7s;
 			};
 			name = Release;
 		};
